@@ -9,6 +9,8 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     search_text = request.args.get("username")
+    if not search_text:
+        return "use it like ?username=ned"
 
     return jsonify({"usernames": list(ac.search(search_text, limit=10))})
 
