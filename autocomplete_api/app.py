@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from autocomplete_api.db import ac
+from autocomplete_api.redis_db import ac
 from autocomplete_api.populate_db import init_db
 import click
 

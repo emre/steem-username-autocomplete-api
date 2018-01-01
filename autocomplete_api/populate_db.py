@@ -1,5 +1,5 @@
 
-from autocomplete_api.db import ac
+from autocomplete_api.redis_db import ac
 from steem import Steem
 
 
