@@ -5,7 +5,7 @@ steem services asks users their account names. However, most of them
 don't have any autocomplete.
 
 For [steem.rocks](http://steem.rocks) I have needed this in the landing page where
-users types their account names.
+users types their account names. This will be used in the frontend soon.
 
 This app uses Flask to serve the API, redis to store usernames and auto-completion
 functionality.
