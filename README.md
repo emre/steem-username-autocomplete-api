@@ -13,8 +13,8 @@ functionality.
 #### Installation
 
 ```
-$ git clone https://github.com/utopian-io/utopian-tip.git
-$ cd utopian-tip
+$ git clone https://github.com/emre/steem-username-autocomplete-api.git
+$ cd steem-username-autocomplete-api
 $ virtualenv -p python3.6 autocomplete-api-env
 $ source autocomplete-api-env/bin/activate
 $ pip install -r requirements.txt
