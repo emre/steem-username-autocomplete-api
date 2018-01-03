@@ -14,8 +14,8 @@ def index():
         search_text = term
     if not search_text:    
         return "use it like ?username=ned"
-
-    return jsonify({"usernames": list(ac.search(search_text, limit=10))})
+    
+    return jsonify(list(ac.search(search_text, limit=10)))
 
 
 @app.cli.command()
